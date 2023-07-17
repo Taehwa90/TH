@@ -708,7 +708,8 @@ body.dark-theme {
   row-gap: 3rem;
   background-color: var(--first-color);
   background-image: url('../../images/m1.png');
-  background-size: auto;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   padding: 2.5rem 1.5rem 2.5rem;
   border-radius: 1.25rem;
@@ -721,6 +722,7 @@ body.dark-theme {
   background-color: var(--first-color);
   background-image: url('../../images/m2.png');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   padding: 2.5rem 1.5rem 2.5rem;
   border-radius: 1.25rem;
@@ -1240,4 +1242,22 @@ background-position: center;
   .scrollup {
     right: 3rem;
   }
+}
+
+@media screen and (min-width: 992px) {
+#message{
+  margin-bottom: 4rem;
+  justify-content: center;
+  height: 20rem;
+}
+.message__container{
+  float: left;
+  margin: 0 auto;
+  width: 48%;
+}
+.message__container2{
+  float: right;
+  margin: 0 auto;
+  width: 48%;
+}
 }
