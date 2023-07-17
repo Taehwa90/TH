@@ -1,0 +1,178 @@
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url(fontawesome-all2.min.css);
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+ 
+ 
+ *{ /* 초기화 */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgba(27, 31, 34, 0.85);
+    padding: 20px;
+}
+
+.header h1{
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    /* font-weight: bolder; */
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: .5rem 0;
+    text-align: center;
+    font-size: 2.25rem;
+    line-height: 1.3;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: solid 1px #ffffff;
+    width: 18rem;
+}
+
+.header p{
+    
+    margin-top: 0px;
+    padding: 0px 0;
+    text-align: center;
+}
+
+.header a{
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgba(255,255,255,.6);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+a {
+    -moz-transition: color 0.25s ease, border-bottom-color 0.25s ease;
+    -webkit-transition: color 0.25s ease, border-bottom-color 0.25s ease;
+    -ms-transition: color 0.25s ease, border-bottom-color 0.25s ease;
+    transition: color 0.25s ease, border-bottom-color 0.25s ease;
+    border-bottom: dotted 1px;
+    color: inherit;
+    text-decoration: none;
+}
+
+    a:hover {
+        border-bottom-color: transparent;
+        color: #f9f9f9;
+    }
+
+.container{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 50px auto;
+}
+
+.container .main-video-container{
+    flex: 1 1 700px;
+    border-radius: 5px;
+    background: #f9f9f9;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+}
+
+.container .main-video-container .main-video{
+    width: 100%;
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+
+.container .main-video-container .main-vid-title{
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 20px;
+    /* color: #444; */
+    color: rgba(27, 31, 34, 0.85);
+}
+
+.container .video-list-container{
+    flex: 1 1 350px;
+    height: 505px;
+    overflow-y: scroll;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    background-color: #f9f9f9;
+    padding: 15px;
+}
+
+.container .video-list-container .list{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.container .video-list-container .list-video{
+    width: 100px;
+}
+
+.container .main-video-container .main-vid-title {
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgba(27, 31, 34, 0.5);
+}
+
+.container .main-video-container .main-vid-title span {
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(27, 31, 34, 0.85);
+}
+
+.container .video-list-container .list-title{
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 0.8rem;
+    /* color: #444; */
+    color: rgba(27, 31, 34, 0.5);
+}
+
+.container .video-list-container .list-title span{
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    /* color: #444; */
+    color: rgba(27, 31, 34, 0.85);
+}
+
+.container .video-list-container .list.active .list-title{
+    color: #eee;
+}
+
+.container .video-list-container .list.active .list-title span{
+    color: #eee;
+}
+
+.container .video-list-container .list.active{
+    background-color:/*  #bab9b9 */#4E1252;
+}
+
+/* 스크롤바 - 웹표준x - 가상요소 크롬 등에서 이용 가능 */
+.container .video-list-container::-webkit-scrollbar{ /* 크롬기준 스크롤바 전체 */
+    width: 10px;
+}
+.container .video-list-container::-webkit-scrollbar-track{ /* 스크롤바 여백 */
+    background-color: /* #eee */#DB298E;
+    border-radius: 5px;
+}
+.container .video-list-container::-webkit-scrollbar-thumb{ /* 스크롤바 막대 */
+    background-color: /* #bab9b9 */#29DCAC;
+    border-radius: 5px;
+}
+

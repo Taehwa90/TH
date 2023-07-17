@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        
+
+        <title>DESIGN</title>
+
+
+    </head>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+    <style>
+        #myCarousel {
+            margin-top: 5rem;
+          --f-carousel-spacing: 10px;
+          --f-carousel-slide-width: 60%;
+        }
+
+     @media screen and (max-width: 767px) {
+            #myCarousel {
+            margin-top: 0rem;
+        }
+    }
+
+      
+        #myCarousel .f-carousel__slide {
+          padding: 50px;
+          background: #f9f9f9;
+         
+        }
+      
+        #myCarousel .f-carousel__slide img {
+          width: 100%;
+        }
+      
+        .fancybox__slide.has-caption {
+          flex-direction: row;
+        }
+      
+        .fancybox__caption {
+          max-width: 250px;
+          padding: 1rem 3rem 1rem 1rem;
+        }
+
+.fancybox__thumbs{
+    height: 0;
+}
+
+
+      </style>
+
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="../Main Home/index.html" class="nav__logo">
+                    <img src="images/로고.png" alt="" class="nav__logo-img"> 
+                    TAEHWA
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#Character" class="nav__link">Character</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#celebrate" class="nav__link">Symbol·Logo</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#gift" class="nav__link">Package</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">Leaflet</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#Poster" class="nav__link">Poster·Banner</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="../Web/index.html" class="nav__link">Web</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="../Video/index.html" class="nav__link">Video</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+
+                    <a href="../Main Home/index.html">
+                    <img src="images/로고.png" alt="" class="nav__img">
+                </a>
+                </div>
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                    <!-- Toggle button -->
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+             <section>
+                    <div>
+                      <div class="f-carousel" id="myCarousel">
+                        <div class="f-carousel__slide"><img src="images/01.png" alt=""></div>
+                        <div class="f-carousel__slide"><img src="images/02.png" alt=""></div>
+                        <div class="f-carousel__slide"><img src="images/03.png" alt=""></div>
+                        <div class="f-carousel__slide"><img src="images/04.png" alt=""></div>
+                        <div class="f-carousel__slide"><img src="images/05.png" alt=""></div>
+                        <div class="f-carousel__slide"><img src="images/06.png" alt=""></div>
+                        <div class="f-carousel__slide"><img src="images/07.png" alt=""></div>
+                      </div>
+                    </div>
+              </section>
+            </section>
+               
+            <!--==================== Character ====================-->
+            <section class="Character" id="Character">
+                <div class="Character__container container grid">
+                    <img src="images/캐릭터01.png" alt="" class="Character__img">
+
+                    <div class="Character__data">
+                        <h2 class="Character__title">하냥 (HaNyang)</h2><br>
+                        <h3>Story</h3><br>
+                        <p class="Character__description">
+                        지친 사람들에게 사랑과 행복을 나눠주기 위해 <br>
+                        세상으로 나온 작지만 강한 고양이 하냥<br>
+                        하지만, 세상에 나오자마자 누구보다도 빠르게<br>
+                        지쳐버렸다?! <br>
+                        지친 삶에서 함께 벗어나기 위한 하냥의 일상
+                        </p>
+                    </div>
+                </div>
+            
+
+            <!--==================== GIVING ====================-->
+            <section class="giving section container">
+                <h2 class="section__title">
+                </h2>
+
+                <div class="giving__container grid">
+                    <div class="giving__content">
+                        <img src="images/1-5.png" alt="" class="giving__img">
+                       <!--  <h3 class="giving__title">Idea Sketch</h3> -->
+                    </div>
+
+                  <!--   <div class="giving__content">
+                        <img src="images/1-2.jpg" alt="" class="giving__img">
+                        <h3 class="giving__title">Character Guideline</h3>
+                    </div>
+
+                    <div class="giving__content">
+                        <img src="images/1-3.jpg" alt="" class="giving__img">
+                        <h3 class="giving__title">Character Variation</h3>
+                    </div>
+
+                    <div class="giving__content">
+                        <img src="images/1-4.jpg" alt="" class="giving__img">
+                        <h3 class="giving__title">Character mock-up</h3>
+                    </div> -->
+                </div>
+            </section>
+        </section>
+            <!--==================== CELEBRATE ====================-->
+            <section class="celebrate section container" id="celebrate">
+                <div class="celebrate__container grid">
+                    <div class="celebrate__data">
+                        <h2 class="section__title celebrate__title">
+                           <br> TaeHwa Symbol·Logo<br>
+                        </h2>
+                        <h3>Personal Branding</h3><br>
+                        <p class="celebrate__description">
+                            '태화'라는 이름의 셀프-브랜딩<br>
+                            한글명 태화의 '화' 자에 영문명 TaeHwa의 약자인<br>
+                            'TH'를 연상시킬 수 있는 심볼을<br> 'TAEHWA' 로고와 함께
+                            반듯하게 놓았고,<br> 부드럽고 깔끔한 이미지를
+                            상징하기위한 투톤으로 조합하여 표현함
+                        </p>
+                    </div>
+
+                    <img src="images/로고01.png" alt="" class="celebrate__img">
+                </div>
+                <section class="giving section container">
+                    <h2 class="section__title">
+                    </h2>
+                <div class="giving__container grid">
+                    <div class="giving__content">
+                        <img src="images/로고심볼01.png" alt="" class="giving__img">
+                       <!--  <h3 class="giving__title">Idea Sketch</h3> -->
+                    </div>
+                </div>    
+                </section>
+            </section>
+
+            <!--==================== GIFT ====================-->
+            <section class="gift section container" id="gift">
+                <h2 class="section__title">Package</h2>
+
+                <div class="gift__container grid">
+                    <article class="gift__card">
+                        <a href="images/3-1.png" data-fancybox="gallery-a">
+                        <img src="images/패키지1.png" alt="" class="gift__img">
+                       </a>
+                        <h3 class="gift__price">UNDERSCORE</h3>
+                        <span class="gift__title">Diffuser</span>
+                    </article>
+
+                    <article class="gift__card">
+                        <a href="images/3-2.png" data-fancybox="gallery-a">
+                        <img src="images/패키지2.png" alt="" class="gift__img">
+                       </a>
+                        <h3 class="gift__price">RAUSCH</h3>
+                        <span class="gift__title">Shampoo</span>
+                    </article>
+
+                    <article class="gift__card">
+                        <a href="images/3-3.png" data-fancybox="gallery-a">
+                        <img src="images/패키지3.png" alt="" class="gift__img">
+                       </a>
+                        <h3 class="gift__price">MILK</h3>
+                        <span class="gift__title">Body Lotion</span>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== NEW ====================-->
+            <section class="new section container" id="new">
+                <h2 class="section__title">Leaflet</h2>
+
+                <div class="new__container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <article class="new__card swiper-slide">
+                                <div class="new__overlay"></div>
+
+                                <img src="images/리플렛1.png" alt="" class="new__img">
+                                <h3 class="new__price">부산 관광 BI</h3>
+                                <a href="images/리플렛01.jpg" data-fancybox="gallery-b">
+                                    <span class="new__title">더보기</span></a>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <div class="new__overlay"></div>
+
+                                <img src="images/리플렛3.png" alt="" class="new__img">
+                                <h3 class="new__price">기안84 전시회</h3>
+                                <a href="images/리플렛03.jpg" data-fancybox="gallery-b">
+                                    <span class="new__title">더보기</span></a>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <div class="new__overlay"></div>
+
+                                <img src="images/리플렛2.png" alt="" class="new__img">
+                                <h3 class="new__price">롯데리아X포켓몬</h3>
+                                <a href="images/리플렛02.jpg" data-fancybox="gallery-b">
+                                    <span class="new__title">더보기</span></a>
+                                
+                            </article>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--==================== Poster ====================-->
+            <section class="new section container" id="Poster">
+                <h2 class="section__title">Poster·Banner</h2>
+
+                <div class="new__container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <article class="new__card swiper-slide">
+                                <div class="new__overlay"></div>
+
+                                <img src="images/포스터틀.png" alt="" class="new__img">
+                                <h3 class="new__price">X배너</h3>
+                                <a href="images/x배너01.jpg" data-fancybox="gallery-c">
+                                    <span class="new__title">더보기</span></a>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <div class="new__overlay2"></div>
+
+                                <img src="images/포스터틀.png" alt="" class="new__img">
+                                <h3 class="new__price">Web배너</h3>
+                                <a href="images/웹배너01.jpg" data-fancybox="gallery-c">
+                                    <span class="new__title">더보기</span></a>
+                            </article>
+
+                            <article class="new__card swiper-slide">
+                                <div class="new__overlay3"></div>
+
+                                <img src="images/포스터틀.png" alt="" class="new__img">
+                                <h3 class="new__price">포스터</h3>
+                                <a href="images/포스터01.jpg" data-fancybox="gallery-c">
+                                    <span class="new__title">더보기</span></a>
+                                
+                            </article>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== MESSAGE ====================-->
+            <section class="message section container">
+                <div class="message__container grid" id="message">
+                        <a href="../Web/index.html">
+                            <h1>Web Design</h1>
+                        <button class="button message__button">바로가기</button></a>
+                </div>
+                <div class="message__container2 grid" id="message">  
+                         
+                        <a href="../Video/index.html">
+                            <h1>Video Design</h1>
+                        <button class="button message__button">바로가기</button></a>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <!-- <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        <img src="assets/img/logo.png" alt="" class="footer__logo-img"> 
+                        Christmas
+                    </a>
+
+                    <p class="footer__description">
+                        This Christmas give <br> a lot of love
+                    </p>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Our Services</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Pricing</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Discounts</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Shipping mode</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Support</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Support center</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">Available On</h3>
+
+                    <div class="footer__aviables">
+                        <img src="assets/img/aviable1.png" alt="" class="footer__aviable-img">
+                        <img src="assets/img/aviable2.png" alt="" class="footer__aviable-img">
+                    </div>
+                </div>
+
+                <img src="assets/img/footer1.png" alt="" class="footer__img1">
+                <img src="assets/img/footer2.png" alt="" class="footer__img2">
+            </div>
+
+            <span class="footer__copy">&#169; Bedimcode. All rigths reserved</span>
+        </footer> -->
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+        <!-- home -->
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script>
+    Fancybox.bind('[data-fancybox="gallery"]', {
+      compact: false
+    });    
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
+  <script>
+    new Carousel(document.getElementById("myCarousel"), {
+      Autoplay: {
+        progressParentEl: (autoplay) => {
+          return autoplay.instance.viewport;
+        }
+      }
+    }, {
+      Autoplay
+    });
+  </script>
+   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+   <script>
+        Fancybox.bind('[data-fancybox="gallery-a"]', {
+              // Your custom options
+        });
+        Fancybox.bind('[data-fancybox="gallery-b"]', {
+              // Your custom options
+        });
+       
+        Fancybox.bind('[data-fancybox="gallery-c"]', {
+              // Your custom options
+        });
+   </script>
+    </body>
+</html>

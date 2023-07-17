@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>여기어때.</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- aos cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- remixicon cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.3.0/remixicon.css"
+        integrity="sha512-0JEaZ1BDR+FsrPtq5Ap9o05MUwn8lKs2GiCcRVdOH0qDcUcCoMKi8fDVJ9gnG8VN1Mp/vuWw2sMO0SQom5th4g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo">
+        </a>
+
+        <nav class="navbar">
+            <a href="#world">해변여행</a>
+            <a href="#koreajj">한옥체험</a>
+            <a href="#themes">호텔·리조트</a>
+            <a href="#premium">캠핑·글램핑</a>
+            <a href="#area">반려동물</a>
+            <a href="#airhotel">교통/항공</a>
+            <a href="#event">해외여행</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <!-- <i class="ri-search-line"></i> -->
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="text" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3 data-aos="fade-up">여행할때</h3>
+            <p data-aos="fade-right">여기어때</p>
+            <a href="#" class="btn">이벤트 바로가기</a>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- world section start -->
+    <section class="world" id="world">
+        <h1 class="heading">
+            <span>해변</span>여행
+        </h1>
+        <div class="row">
+            <swiper-container style="--swiper-navigation-color: #f7323f; --swiper-pagination-color: #787878;"
+                class="mySwiper" speed="600" parallax="true" pagination="true" pagination-clickable="true"
+                navigation="true">
+                <div slot="container-start" class="parallax-bg"
+                    style="background-image: url(https://swiperjs.com/demos/images/nature-1.jpg);"
+                    data-swiper-parallax="-23%"></div>
+
+                <swiper-slide>
+                    <div class="image">
+                        <img src="images/1-1.png" alt="slide1">
+                        <div class="content">
+                            <h3>여행할때 여기어때</h3>
+                            <p>
+                                강릉 안목 해변<br>
+                                안락한 분위기를 느낄 수 있는 숙소 501<br>
+                                (SPA)
+                            </p>
+                            <p>
+                                체크인 2023.8.6<br>
+                                체크아웃 2023.8.11<br>
+                            </p>
+                            <h4>￦233,200/박</h4>
+                            <a href="#" class="btn">자세히 보기</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <div class="image">
+                        <img src="images/1-2.png" alt="slide2">
+                        <div class="content">
+                            <h3>여행할때 여기어때</h3>
+                            <p>
+                                강릉의 깔끔하고 모던한<br>
+                                화이트톤의 숙소 401<br>
+                                (와이드 오션뷰)
+                            </p>
+                            <p>
+                                체크인 2023.7.6<br>
+                                체크아웃 2023.7.11<br>
+                            </p>
+                            <h4>￦271,360/박</h4>
+                            <a href="#" class="btn">자세히 보기</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <div class="image">
+                        <img src="images/1-3.png" alt="slide3">
+                        <div class="content">
+                            <h3>여행할때 해변어때</h3>
+                            <p>
+                                전망 좋은 광안리<br>
+                                해변 산책하기 좋은 숙소<br>
+                                (올 오션뷰)
+                            </p>
+                            <p>
+                                체크인 2023.7.4<br>
+                                체크아웃 2023.7.9<br>
+                            </p>
+                            <h4>￦152,000/박</h4>
+                            <a href="#" class="btn">자세히 보기</a>
+                        </div>
+                    </div>
+                </swiper-slide>
+            </swiper-container>
+        </div>
+    </section>
+    <!-- world section end -->
+
+    <!-- koreajj section start -->
+    <section class="koreajj" id="koreajj">
+        <h1 class="heading"><span>한옥</span>체험</h1>
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/2-1.png" alt="k1">
+                <h3>Local Old Alley,<br>SpaceMODA</h3>
+                <p>
+                    정원있는 독채한옥<br>
+                    한양도성 낙산공원 옆
+                </p>
+                <div class="price"><span>￦189,940</span></div>
+                <a href="#" class="btn">더보기</a>
+            </div>
+
+            <div class="box">
+                <img src="images/2-2.png" alt="k2">
+                <h3>고도한옥<br>1987</h3>
+                <p>
+                    현대식 인테리어<br>
+                    개별 바베큐장
+                </p>
+                <div class="price"><span>￦470,000</span></div>
+                <a href="#" class="btn">더보기</a>
+            </div>
+
+            <div class="box">
+                <img src="images/2-3.png" alt="k3">
+                <h3>사계절 실내 자쿠지<br>[노송오재]</h3>
+                <p>
+                    돌사이로 떨어지는<br>
+                    물을 담은 옥빛의 자쿠지
+                </p>
+                <div class="price"><span>￦321,000</span></div>
+                <a href="#" class="btn">더보기</a>
+            </div>
+
+            <div class="box">
+                <img src="images/2-4.png" alt="k4">
+                <h3>장인이 만든 한옥<br>aroomSEOUL</h3>
+                <p>
+                    숙련된 장인이 정성껏 빚어낸<br>
+                    시대를 초월한 아름다움
+                </p>
+                <div class="price"><span>￦257,800</span></div>
+                <a href="#" class="btn">더보기</a>
+            </div>
+        </div>
+    </section>
+    <!-- koreajj section end -->
+
+    <!-- themes section start -->
+    <section class="themes" id="themes">
+        <h1 class="heading"><span>호텔</span>·리조트</h1>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="image">
+                    <img src="images/3-1.png" alt="t1">
+                </div>
+                <div class="content">
+                    <h3>[강릉세인트호텔]</h3>
+                    <h4>강문해변 오션뷰<br>5박 6일</h4>
+                    <p class="price">￦1,430,000</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="image">
+                    <img src="images/3-2.png" alt="t2">
+                </div>
+                <div class="content">
+                    <h3>Onda</h3>
+                    <h4>#거제바다 #탁트인전망 #따뜻한 온수풀<br>4박 5일</h4>
+                    <p class="price">￦3,174,000</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="image">
+                    <img src="images/3-3.png" alt="t3">
+                </div>
+                <div class="content">
+                    <h3>신축 Grace호텔</h3>
+                    <h4>#일출 #등대해변 도보1분<br>4박 5일</h4>
+                    <p class="price">￦744,000</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- themes section end -->
+
+    <!-- premium section start -->
+    <section class="premium" id="premium">
+        <h1 class="heading">
+            <span>캠핑</span>·글램핑
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/4-1.png" class="pre" alt="pr1">
+                </div>
+                <p>코드 블랙<br>
+                    감성캠핑과 아늑한 숙소<br>
+                    #캠핑감성 #뷰맛집 #대형카페 #와인터널</p>
+                <h3>[코드 블랙] <br>
+                    ￦130,000/박 5박
+                </h3>
+                <a href="#" class="btn">￦650,000</a>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/4-2.png" class="pre" alt="pr2">
+                </div>
+                <p>라일락 가든<br>
+                    라일락 향이 짙은 정원<br>
+                    프로방스 양식의 집</p>
+                <h3>[라일락 가든] <br>
+                    ￦105,000/박 6박
+                </h3>
+                <a href="#" class="btn">￦630,000</a>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/4-3.png" class="pre" alt="pr3">
+                </div>
+                <p>포레스트 그릴<br>
+                    아름다운 풍경 속 자연과 하나 되는 시간<br>
+                    #프라이빗공간 #도시캠핑 #캠핑식당 #BBQ</p>
+                <h3>[포레스트 그릴] <br>
+                    ￦370,000/박 5박
+                </h3>
+                <a href="#" class="btn">￦1,850,000</a>
+            </div>
+        </div>
+    </section>
+    <!-- premium section end -->
+
+
+    <!-- area section start -->
+    <section class="area" id="area">
+        <h1 class="heading">반려<span>동물</span></h1>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="content-box">
+                    <div class="title">캠핑</div>
+                </div>
+
+                <div class="content">
+                    <div class="conbox1">
+                        <a href="#"><img data-aos="fade-up" src="images/5-1.png" alt="busan-1"></a>
+                        <p></p>
+                    </div>
+
+                    <div class="conbox2">
+                        <a href="#"><img data-aos="fade-up" src="images/5-2.png" alt="busan-2"></a>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="content-box">
+                    <div class="title">수영장</div>
+                </div>
+
+                <div class="content">
+                    <div class="conbox1">
+                        <a href="#"><img data-aos="fade-up" src="images/5-3.png" alt="daegu-1"></a>
+                        <p></p>
+                    </div>
+
+                    <div class="conbox2">
+                        <a href="#"><img data-aos="fade-up" src="images/5-4.png" alt="daegu-2"></a>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="content-box">
+                    <div class="title">스튜디오</div>
+                </div>
+
+                <div class="content">
+                    <div class="conbox1">
+                        <a href="#"><img data-aos="fade-up" src="images/5-5.png" alt="muan-1"></a>
+                        <p></p>
+                    </div>
+
+                    <div class="conbox2">
+                        <a href="#"><img data-aos="fade-up" src="images/5-6.png" alt="busan-2"></a>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- area section end -->
+
+
+    <!-- airhotel section start -->
+    <section class="airhotel" id="airhotel">
+        <h1 class="heading"><span>교통</span>/항공</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image1">
+                    <div class="content">
+                        <div class="title">교통</div>
+                        <span>고속버스/기차</span>
+                        <a href="#" class="btn">예약하기</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image2">
+                    <div class="content">
+                        <div class="title">항공</div>
+                        <span>전세계 항공권</span>
+                        <a href="#" class="btn">예약하기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- airhotel section end -->
+
+
+    <!-- event section start -->
+    <section class="event" id="event">
+        <h1 class="heading"><span>해외</span>여행</h1>
+        <div class="container">
+
+            <div class="box box1">
+                <div class="in">
+                    <h4>구마모토 성 가는 길</h4>
+                    <p>일본 구마모토</p>
+                </div>
+            </div>
+            <div class="box box2">
+                <div class="in">
+                    <h4>방콕의 야경을 한 눈에</h4>
+                    <p>태국 방콕</p>
+                </div>
+            </div>
+            <div class="box box3">
+                <div class="in">
+                    <h4>울창한 열대 정원 나만의 방갈로</h4>
+                    <p>캄보디아 시엠립</p>
+                </div>
+            </div>
+            <div class="box box4">
+                <div class="in">
+                    <h4>베니스의 아침</h4>
+                    <p>이탈리아 베니스</p>
+                </div>
+            </div>
+            <div class="box box5">
+                <div class="in">
+                    <h4>그림같은 코르푸타운 속으로</h4>
+                    <p>그리스 코르푸</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- event section end -->
+
+
+    <!-- footer section start -->
+    <section class="footer">
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-k"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-youtube"></a>
+            <a href="#" class="fab fa-b"></a>
+        </div>
+
+        <div class="links">
+            <a href="#">회사소개</a>
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">소비자 분쟁해결 기준</a>
+            <a href="#">여행약관</a>
+            <a href="#">여행자보험</a>
+            <a href="#">고객센터</a>
+        </div>
+
+        <div class="fin">
+            <p>※ (주) 여기어때컴퍼니는 통신판매중개자로서 통신판매의 당사자가 아니며, 상품의 예약, 이용 및 환불 등과 관련한 의무와 책임은 각 판매자에게 있습니다.</p>
+        </div>
+
+        <div class="credit">
+            created by 2023. <span>th</span> ｜ all rights reserved.
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- footer section end -->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
